@@ -1,5 +1,3 @@
-# Eth-Storage-Ceremony-v1
-
 Bilkul Hii 👀 — maine us repo ka quick guide check kiya. Agar tum apne repo me ye instructions paste karna chahte ho, toh yeh raha ek clean, formatted version jo tum README ya kisi doc file me daal sakte ho:
 
 ---
@@ -22,34 +20,36 @@ Bilkul Hii 👀 — maine us repo ka quick guide check kiya. Agar tum apne repo 
 
 ### 🛠 Setup Instructions:
 
+```bash
 # Update & install dependencies
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y curl git build-essential
-
-....
-
+```
 # Install Node.js
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
 sudo npm install -g npm@9.2
 
+```
 # Check versions
 node -v
 npm -v
 
+```
 # Create temp directory
 mkdir ~/trusted-setup-tmp && cd ~/trusted-setup-tmp
-
+````
 # Install Phase2 CLI
 sudo npm install -g @p0tion/phase2cli
-
+````
 # Verify CLI
 phase2cli --version
-
+``
 # Authenticate with GitHub
 phase2cli auth
 # Visit https://github.com/login/device and enter the code
 # Authorize ethstorage with Read & Write access to GitHub Gists
+
 
 # Start screen session
 screen -S ceremony
@@ -98,4 +98,4 @@ rm -rf ~/ceremonyeth
 
 ---
 
-🎉 You’ve successfully contributed to EthStorage’s decentralization!  
+🎉 You’ve successfully contributed to EthStorage’s decentralization!
