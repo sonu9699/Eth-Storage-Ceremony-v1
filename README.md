@@ -22,10 +22,11 @@ Bilkul Hii 👀 — maine us repo ka quick guide check kiya. Agar tum apne repo 
 
 ### 🛠 Setup Instructions:
 
-```bash
 # Update & install dependencies
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y curl git build-essential
+
+....
 
 # Install Node.js
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
